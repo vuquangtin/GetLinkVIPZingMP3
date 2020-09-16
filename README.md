@@ -4,7 +4,7 @@
 
 ## Bật trình duyệt truy vấn album
 
-<img src='https://github.com/vuquangtin/GetLinkVIPZingMP3/img/zing_album.png'/>
+<img src='img/zing_album.png'/>
 
 view source HTML bạn sẽ thấy chuỗi js trả về danh sách album với
 
