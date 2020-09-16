@@ -579,3 +579,42 @@ thông tin JSON của bài hát như ví dụ sau:
 ```
 
 vậy là ta đã có URL của file mp3 theo nhiều định dạng tuỳ chọn như ```320``` , ```128``` với mẫu thời gian tồn tại nên ta chỉ có thể download trong 1 thời điểm khi truy vấn xong.
+
+## Chạy ứng dụng
+
+### Clone và build source code
+
+1. cài git
+2. clone về máy dùng ```git clone https://github.com/vuquangtin/GetLinkVIPZingMP3```
+3. sử dụng maven và máy đã cài java.  bằng câu lệnh ```mvn install```
+4. sau khi build thành công sẽ tạo ra file jar để chạy :```GetLinkVIPZingMP3-0.0.1-SNAPSHOT-jar-with-dependencies.jar``` bao gồm các thư viện phụ thuộc
+
+### Chạy với cấu hình.
+
+1. **Máy có google chrome để bật trình duyệt**
+2. Chạy với cấu hình **java -jar GetLinkVIPZingMP3-0.0.1-SNAPSHOT-jar-with-dependencies.jar conf/zing_album_nhac_xuan.txt**
+3. Thông tin file cấu hình **conf/zing_album_nhac_xuan.txt**
+
+```
+https://zingmp3.vn/album/Nhac-Do-Hay-Nhat-Various-Artists/ZOD9AA9W.html	nhac_do
+https://zingmp3.vn/album/Nhac-Do-27-07-Huynh-Loi/ZWZACDZ0.html	nhac_do
+https://zingmp3.vn/album/Nhac-Do-2-Hay-Yen-Long-Me-Oi-Luong-Gia-Huy/ZOZ7ZUIA.html	nhac_do
+https://zingmp3.vn/playlist/Ca-Khuc-Nhac-Do-Hay-Nhat/IW7D9CCE.html	nhac_do
+https://zingmp3.vn/playlist/nhac-do/6OBEZOE6.html	nhac_do
+https://zingmp3.vn/playlist/Nhac-Do/IW607BEU.html	nhac_do
+https://zingmp3.vn/playlist/Nhac-do/ZUA9O7OC.html	nhac_do
+https://zingmp3.vn/playlist/NHAC-DO/6WIUFFC9.html	nhac_do
+https://zingmp3.vn/playlist/100-bai-nhac-do/60W0FOWB.html	nhac_do
+https://zingmp3.vn/playlist/nhac-do/ZB0WAAF7.html	nhac_do
+https://zingmp3.vn/playlist/nhac-do-hay/ZOAZCCC8.html	nhac_do
+https://zingmp3.vn/playlist/Que-huong-dat-nuoc-nhac-do/IWCICOI7.html	nhac_do
+https://zingmp3.vn/playlist/Nhac-Do-Cach-Mang/Z9F6B8IU.html	nhac_do
+https://zingmp3.vn/playlist/Nhac-do/6UU6DCC7.html	nhac_do
+```
+
+>file cấu hình mỗi dòng là 1 album từ ```zing mp3``` gồm tên album và thư mục lưu (cách nhau bằng dấu tab)
+
+
+<img src='img/list_mp3_in_album.png'/>
+
+giờ bạn có thể nghe và thưởng thức nhạc !!!
