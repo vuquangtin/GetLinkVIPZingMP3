@@ -1,6 +1,6 @@
 # Trình download album nhạc chất lượng cao từ zing mp3
 
->Sử dụng bật trình duyệt bằng cách sử dụng ```selenium``` để thao tác với trình duyệt như google chrome. Và sử dụng trình get LINK từ https://zing-mp3.glitch.me/? bằng termial với URL https://zing-mp3.glitch.me/?url=https://zingmp3.vn/embed/song/id_baihat để tải về băng HTTP request.
+>Sử dụng bật trình duyệt bằng cách sử dụng ```selenium``` để thao tác với trình duyệt như google chrome. Và sử dụng trình get LINK được cung cấp bởi https://zing-mp3.glitch.me/? bằng cách sử dụng terminal với URL https://zing-mp3.glitch.me/?url=https://zingmp3.vn/embed/song/id_baihat để tải về bằng HTTP request thông thường.
 
 ## Bật trình duyệt truy vấn album
 
@@ -525,7 +525,7 @@ view source HTML bạn sẽ thấy chuỗi js trả về danh sách album với
 ```
 
 
-Sau khi có được danh sách các id của bài hát như:
+Sau khi sử dụng JSONObject từ thư viện Json ta có được danh sách các id của bài hát như:
 
 - ZWZAA7E0
 - ZWZA8C7W
